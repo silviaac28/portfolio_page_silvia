@@ -9,15 +9,7 @@ menuIcon.onclick = () => {
 };
 
 
-    let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
-    let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
 
-    function NewTab() {
-      window.open(
-        "https://drive.google.com/file/d/1FK_0gaVoHuaEpRGFL7plIsRxdRK_hB7V/view?usp=sharing",
-        "_blank"
-      );
-    }
 
 // *=============================== scroll sections active link ==================================
 let sections = document.querySelectorAll('section');
@@ -68,7 +60,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin:'left'});
 // *===============================  typed js==================================
 
 const typed = new Typed('.multiple-text', {
-  strings: ['Software Developer', 'Backend Developer'],
+  strings: ['Software Developer', 'Backend Developer','Civil Engineer'],
   typeSpeed: 100,
   backSpeed: 100,
   backdelay: 1000,
