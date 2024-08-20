@@ -22,6 +22,10 @@
   <link rel="preload" as="image" href="./images/pattern-3.svg" />
 
   <link rel="shortcut icon" href="./images/img_56497.webp" type="image/x-icon">
+
+
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 </head>
 
 <body id="top">
@@ -34,10 +38,10 @@
 
     <nav id="nav-menu">
       <a class="nav-link" href="#home">Home</a>
-      <a class="nav-link about" href="#about">About</a>
+      <a class="nav-link about" href="#about">Acerca de mí</a>
       <a class="nav-link skills" href="#skills">Skills</a>
-      <a class="nav-link projects" href="#projects">Projects</a>
-      <a class="nav-link contact" href="#contact">Contact</a>
+      <a class="nav-link projects" href="#projects">Proyectos</a>
+      <a class="nav-link contact" href="#contact">Contacto</a>
 
     </nav>
   </header>
@@ -48,10 +52,13 @@
   <section class="home" id="home">
 
     <div class="home-content">
-      <h3>Hello, it's me</h3>
+      <h1>Bienvenido,
+        <span>
 
-      <h1 id="user-detail-name">Silvia Angarita</h1>
-      <h3>And I'm a <br><span class="multiple-text"></span></h3>
+        </span>
+      </h1>
+
+      <h3>Soy Silvia Angarita<br><span class="multiple-text"></span></h3>
 
       <div class="social-media">
         <a href="https://github.com/silviaac28" target="_blank"><i class='bx bxl-github'></i></a>
@@ -59,15 +66,15 @@
       </div>
 
       <li id="resume-button-2">
-        <a href="./Resume/SA_CV.pdf" target="_blank" id="resume-link-2" class="button"
-          download>Resume<i class='bx bxs-download'></i></a>
+        <a href="./Resume/CVSilvia.pdf" target="_blank" id="resume-link-2" class="button"
+          download>Descargar CV<i class='bx bxs-download'></i></a>
       </li>
 
 
     </div>
 
     <div class="home-image">
-      <img class="home-img" src="./Images/profile.png" style="border-radius: 300px;" alt="profile-pic" />
+      <img class="home-img" src="./Images/silvia.jpg" style="border-radius: 300px;" alt="profile-pic" />
     </div>
 
     <img src="./shadows/shadow-1.svg" width="500" height="800" alt="hello" class="hero-bg hero-bg-1" />
@@ -82,18 +89,16 @@
 
   <section id="about" class="about section">
 
-    <h2 class="heading"><i class='bx bx-user'></i>About
-      <span>Me!</span>
+    <h2 class="heading"><i class='bx bx-user'></i>Acerca de
+      <span>mí!</span>
       <div class="about-content">
-        <h3>I'm <span>Silvia Angarita</span></h3>
-        <h3>Full-stack web Developer</h3>
-        <p id="user-detail-intro">
-          I'm Silvia Angarita, a creative full-stack web developer from Srinagar, India. I'm skilled in HTML, CSS,
-          JavaScript, React js, Redux, NodeJS, Express, and MongoDB.
+        <p id="user-detail-intro" style="text-align: justify;">
+          Soy una desarrolladora de software proactiva y comprometida con la creación de soluciones que optimicen sistemas y
+           mejoren la experiencia del usuario. Mi experiencia incluye el desarrollo de proyectos utilizando tecnologías 
+           como Java, Spring Boot, HTML, CSS, JavaScript y MySQL. 
           </br>
-          Crafting visually
-          appealing websites excites me, and I aspire to contribute to the web development community, making a positive
-          impact on the world through technology.
+          </br>
+          Actualmente, estoy enfocada en ampliar mis conocimientos y experiencia para alcanzar mi objetivo de desarrollar soluciones eficientes que no solo impulsen mi crecimiento, sino que también generen un impacto positivo en mi entorno.
         </p>
       </div>
   </section>
@@ -109,12 +114,11 @@
       <!-- s-t-a heading -->
       <h2 class="heading">  
         Skills
-        <span>& Expertise</span>
       </h2>
 
       <!-- skills -->
       <div id="skill-container">
-        <h1 class="sta-heading" >Tech Stacks</h1>
+        <h1 class="sta-heading" >Tecnologías</h1>
         <ul class="grid-list">
           <li>
             <button class="skills-card tag-btn"> 
@@ -212,7 +216,7 @@
 
       <!-- tools -->
       <div id="tool-container">
-        <h1 class="sta-heading"  >Tools and Libraries</h1>
+        <h1 class="sta-heading"  >Herramientas y Librerías</h1>
         <ul class="grid-list">
          
   
@@ -249,34 +253,80 @@
             </button>
           </li>
 
-    
-          <li>
-            <button class="skills-card tag-btn">
-              <img src="https://bobcares.com/wp-content/uploads/2022/12/workbench.png" width="32" height="32" loading="lazy" alt="Netlify" />
-              <p class="skills-card-name">Workbench</p>
-            </button>
-          </li>
         </ul>
       </div>
     </div>
     
     <!-- abilities -->
     <div id="abilities-container">
-      <h1  class="sta-heading" style="padding-left: 2rem;">Abilities</h1>
+      <h1  class="sta-heading" style="padding-left: 2rem;">Certificaciones</h1>
       <div class="skills-container">
         <div class="skills-card-1">
-          <i class='bx bx-code-alt' class="skills-card-img"></i>
-          <h3 class="skills-card-name">Full Stack Development</h3>
-          <p>HTML | CSS | JavaScript | React Js | Express | MongoDB</p>
-          <a href="#" class="button">Read More</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" id="casco" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+          </svg>
+          <h3 class="skills-card-name">Ingeniería civil</h3>
+          <p>Pregrado en Ingeniería Civil
+            <p>(Universidad Pontificia Bolivariana - 2021)</p>
+          </p>
         </div>
+
         <div class="skills-card-1">
-          <i class='bx bxl-codepen' class="skills-card-img"></i>
-          <h3 class="skills-card-name">Data Structure Algorithm</h3>
-          <p> Hahmap | Stack & Queue | LinkedList |
-            Recursion | DP </p>
-          <a href="#" class="button">Read More</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+            <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+          </svg>
+          <h3 class="skills-card-name">Curso análisis de datos exploratorio</h3>
+          <p>Análisis de datos exploratorio de datos en Python.
+        (SENA - 2023) </p>
+      
         </div>
+
+        <div class="skills-card-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+            <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+          </svg>
+          <h3 class="skills-card-name">Diplomado Formulación de Proyectos</h3>
+
+          <p>(Organizacion de Estados Iberoamericanos OEI - 2023)</p>
+        </div>
+
+        
+        <div class="skills-card-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.004-.001.274-.11a.75.75 0 0 1 .558 0l.274.11.004.001zm-1.374.527L8 5.962 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339Z"/>
+          </svg>
+          <h3 class="skills-card-name">Curso Principios del Análisis y Diseño Orientado a Objetos</h3>
+
+          <p>(SENA - 2023)</p>
+        </div>
+
+        <div class="skills-card-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
+            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
+          </svg>
+          <h3 class="skills-card-name">Curso Metodología de la Programación de Sistemas Informáticos</h3>
+
+          <p>(SENA - 2023)</p>
+        </div>
+
+        <div class="skills-card-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
+          </svg>
+          <h3 class="skills-card-name">Curso Desarrollo de Software</h3>
+
+          <p>Formación en desarrollo de software
+            <br> full-stack.
+            <br>
+            (Campuslands - 2024)</p>
+
+        </div>
+
+
+
       </div>
     </div>
 
@@ -284,288 +334,174 @@
 
   
 
-  <!-- skills ends --->
-
-
-
-  <!-- Project Starts -->
-
-  <!-- All project cards have an image, title, deployed link, repository link - 4 marks -->
-  <!-- Each project card in the Projects section should have class="project-card" and the following:
-  Image of the project
-  Title : class="project-title"
-  Description : class="project-description"
-  Tech stack used : class="project-tech-stack"
-  Link to GitHub repository : class="project-github-link"
-  Deployed link or video link : class="project-deployed-link" -->
-
-
   <section class="project" id="projects">
-    <h2 class="heading">My
-      <span>Projects</span>
+    <h2 class="heading">Mis
+      <span>Proyectos</span>
     </h2>
-    <!-- <div class="project-container">
-
-      <div class="project-card">
-        <img src="./ProjectImages/TeamCarverz.png" alt="">
-
-        <div class="project-layer">
-
-          <div class="project-layer">
-            <h4 class="project-title">Carver Skateboards</h4>
-            <p class="project-description">Carver Skateboards is a renowned brand that specializes in producing
-              high-quality skateboards designed for a unique and dynamic riding experience .Carver Skateboards is at the
-              forefront of a skateboarding revolution, redefining the way riders experience the streets and sidewalks.
-              Born from a passion for surfing, Carver Skateboards brings the thrill of wave riding to the urban
-              landscape</p>
-            <h5 class="project-tech-stack">React | JSON Server 
-            </h5>
-            <div class="projectlinks">
-              <a href="https://github.com/anasrashid-1/carverskateboards" class="project-github-link"><i
-                  class='bx bxl-github'></i></a>
-              <a href="https://650c065e34b6d7008525689c--effulgent-granita-28ab37.netlify.app/"
-                class="project-deployed-link"><i class='bx bxl-netlify'></i></a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="project-card">
-        <img src="./ProjectImages/Haanz.png" alt="">
-
-        <div class="project-layer">
-
-          <div class="project-layer">
-            <h4 class="project-title">Haan Sanitizers</h4>
-            <p class="project-description">Personal care that combines style along your day a day. HAAN is a new and
-              disruptive approach to care.</p>
-            <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
-            <div class="projectlinks">
-              <a href="https://github.com/anasrashid-1/Haan-Project" class="project-github-link"><i
-                  class='bx bxl-github'></i></a>
-              <a href="https://haanready.netlify.app/" class="project-deployed-link"><i class='bx bxl-netlify'></i></a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-
-      <div class="project-card">
-        <img src="./ProjectImages/EddieBauerz.png" alt="">
-
-        <div class="project-layer">
-
-          <div class="project-layer">
-            <h4 class="project-title">Eddie Bauer</h4>
-            <p class="project-description">Eddie Bauer, LLC is an American clothing store chain headquartered in
-              Seattle, Washington. </p>
-            <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
-            <div class="projectlinks">
-              <a href="https://github.com/monurajputrko/EddieBuer-U4-" class="project-github-link"><i
-                  class='bx bxl-github'></i></a>
-              <a href="https://eddie-buer.vercel.app/" class="project-deployed-link"><i class='bx bxl-netlify'></i></a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="./ProjectImages/Portfolio.png" alt="">
-
-        <div class="project-layer">
-
-          <div class="project-layer">
-            <h4 class="project-title">My Portfolio</h4>
-            <p class="project-description">My portfolio is a testament to my skills, passion, and dedication. Within these pages, you'll find a collection of projects that I've carefully crafted, each representing a unique blend of creativity and expertise. </p>
-            <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
-            <div class="projectlinks">
-              <a href="https://github.com/anasrashid-1/anasrashid-1.github.io" class="project-github-link"><i
-                  class='bx bxl-github'></i></a>
-              <a href="https://anasrashid-1.github.io/" class="project-deployed-link"><i class='bx bxl-netlify'></i></a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </div> -->
+  
 
 
     <!-- new -->
     <div class="new-product-container">
 
       <!-- 1 -->
-      <div class="new-product-card">
-        <img src="./ProjectImages/ecomerce.png" alt="">
-        <h4>E-Comerce Campusland</h4>
-        <br>
-        <p >About
-          Experience urban wave riding with our high-quality skateboards. This repository features a user-friendly ecommerce website with Razorpay integration for seamless payments.</p>
-          <br>
-        <h5 >HTML | CSS | JavaScript 
-        </h5>
-        <br>
-        <div class="projectlinks" id="p-links">
-          <a href="https://github.com/silviaac28/Ecomerce_Campus.git" target="_blank" class="project-github-link"><i 
-              class='bx bxl-github'></i></a>
-          <a href="https://ecomercecampuslands.netlify.app/"  target="_blank"
-            class="project-deployed-link" target="_blank" ><i class='bx bxl-netlify'></i></a>
-      </div>
+    <div class="new-product-card" id="p-links">
+      <img src="./ProjectImages/vuelosgob1.jpg" alt="">
+      <h4>Agencia Vuelos Globales SA</h4>
+      <br>
+      <p style="text-align: justify;">Este proyecto consiste en un sistema de gestión para aerolíneas que abarca la administración de aviones y tripulación, reservas de vuelos y clientes. Incluye el registro de aviones
+         y mantenimientos, asignación de tripulación, gestión de vuelos y escalas, y detalles de reservas y tarifas. </p>
+      <br>
+      <h5>JAVA | MySQL </h5>
+      <br>
+      <div class="projectlinks">
+        <a href="https://github.com/silviaac28/AgenciaVuelosSA" target="_blank"  class="project-github-link"><i
+            class='bx bxl-github'></i></a>
+        <!-- <a href="https://anasrashid-1.github.io/" target="_blank" class="project-deployed-link"><i class='bx bxl-netlify'></i></a> -->
     </div>
+  </div>
+
+     
 
 
     <!-- 2 -->
     <div class="new-product-card">
-      <img src="./ProjectImages/Haanz.png" alt="">
-      <h4 >Haan Sanitizers</h4>
+      <img src="./ProjectImages/university.png" alt="">
+      <h4 >Gestión de Matriculas Universitarias</h4>
       <br>
-      <p >Explore the world of HAAN, where personal care meets style. This repository showcases our ecommerce website, offering a disruptive approach to care products.</p>
+      <p style="text-align: justify;" >Este proyecto consiste en una plataforma universitaria diseñada para gestionar matrículas. Permite la inscripción 
+        de alumnos, docentes y asignaturas, y genera reportes detallados que incluyen el horario de cada estudiante según su matrícula, 
+        así como un informe sobre las asignaturas más matriculadas.</p>
       <br>
       <h5 >HTML | CSS | JAVASCRIPT
       </h5>
       <br>
       <div class="projectlinks" id="p-links">
-        <a href="https://github.com/anasrashid-1/Haan-Project" target="_blank"  class="project-github-link" ><i
+        <a href="https://github.com/silviaac28/university_web.github.io" target="_blank"  class="project-github-link" ><i
             class='bx bxl-github'></i></a>
-        <a href="https://haanready.netlify.app/" target="_blank" 
+        <a href="https://universityplatform.netlify.app/" target="_blank" 
           class="project-deployed-link"><i class='bx bxl-netlify'></i></a>
     </div>
 
 
 
     </div>
-          <!-- 3 -->
+      
+
+  
+  <!-- 5 -->
+  <div class="new-product-card" id="p-links">
+    <img src="./ProjectImages/futbol1.jpg" alt="">
+    <h4>Liga BetPlay</h4>
+    <br>
+    <p style="text-align: justify;">Este proyecto consiste en un sistema de gestión para una liga de fútbol que abarca la administración de usuarios y roles, equipos
+       y jugadores, programación y resultados de partidos, y venta de entradas. También incluye la gestión de patrocinio y publicidad, así como la emisión de comunicaciones y noticias relacionadas con la liga. </p>
+    <br>
+    <h5>JAVA</h5>
+    <br>
+    <div class="projectlinks">
+      <a href="https://github.com/silviaac28/ligaBetPlay-main" target="_blank"  class="project-github-link"><i
+          class='bx bxl-github'></i></a>
+      <!-- <a href="https://anasrashid-1.github.io/" target="_blank" class="project-deployed-link"><i class='bx bxl-netlify'></i></a> -->
+  </div>
+</div>
+
+    <!-- 3 -->
     <div  class="new-product-card" id="p-links" >
-      <img src="./ProjectImages/EddieBauerz.png" alt="">
-      <h4 >Eddie Bauer</h4>
+      <img src="./ProjectImages/shellsea.png" alt="">
+      <h4 >Shellsea Food</h4>
       <br>
-      <p >Eddie Bauer, LLC is an American clothing store chain headquartered in Seattle, Washington.</p>
+      <p style="text-align: justify;" >Este proyecto consiste en una landing page para un restaurante que presenta una interfaz gráfica con la información clave, incluyendo una sección "Acerca del restaurante", las principales opciones
+         del menú y los servicios ofrecidos. Además, cuenta con un footer de contacto para facilitar la comunicación con los clientes.</p>
       <br>
-      <h5 >HTML | CSS | JAVASCRIPT
+      <h5 >HTML | CSS
       </h5>
       <br>
       <div class="projectlinks">
-        <a href="https://github.com/monurajputrko/EddieBuer-U4-"  target="_blank" class="project-github-link"><i
+        <a href="https://github.com/silviaac28/food_web.github.io"  target="_blank" class="project-github-link"><i
             class='bx bxl-github' ></i></a>
-        <a href="https://eddie-buer.vercel.app/" target="_blank" 
+        <a href="https://shellsearestaurant.netlify.app/" target="_blank" 
           class="project-deployed-link"  ><i class='bx bxl-netlify'></i></a>
     </div>
     </div>
 
-    <!-- 4 -->
-    <div class="new-product-card" id="p-links">
-      <img src="./ProjectImages/Portfolio.png" alt="">
-      <h4>My Portfolio</h4>
-      <br>
-      <p>My portfolio is a testament to my skills, passion, and dedication. Within these pages, you'll find a collection of projects that I've carefully crafted, each representing a unique blend of creativity and expertise. </p>
-      <br>
-      <h5>HTML | CSS | JavaScript</h5>
-      <br>
-      <div class="projectlinks">
-        <a href="https://github.com/anasrashid-1/anasrashid-1.github.io" target="_blank"  class="project-github-link"><i
-            class='bx bxl-github'></i></a>
-        <a href="https://anasrashid-1.github.io/" target="_blank" class="project-deployed-link"><i class='bx bxl-netlify'></i></a>
-    </div>
-  </div>
+ <!-- 1 -->
+ <div class="new-product-card">
+  <img src="./ProjectImages/ecomerce.png" alt="">
+  <h4>E-Commerce Campusland</h4>
+  <br>
+  <p  style="text-align: justify;">
+    Este proyecto consiste en una interfaz gráfica para una tienda virtual, organizada por categorías 
+    de productos incluyendo una sección de carrito de compras. </p>
+    <br>
+  <h5 >HTML | CSS 
+  </h5>
+  <br>
+  <div class="projectlinks" id="p-links">
+    <a href="https://github.com/silviaac28/Ecomerce_Campus.git" target="_blank" class="project-github-link"><i 
+        class='bx bxl-github'></i></a>
+    <a href="https://ecomercecampuslands.netlify.app/"  target="_blank"
+      class="project-deployed-link" target="_blank" ><i class='bx bxl-netlify'></i></a>
+</div>
+</div>
 
   </div>
   </section>
   <!--Project Ends -->
 
   <!-- GitHub starts -->
+
+
+  <section>
+    <p>
+
+    </p>
+  </section>
   
 
-  <div id="github-stats">
-    <h2 class="heading">GitHub
-      <span class="span">Statistics</span>
-    </h2>
+  
     
-    <div id="github-cards-container">
 
-          <!-- for calendar -->
-          <!-- <div class="calendar" style="width: 82%; margin-bottom: 20px; "> -->
-            <!-- Loading stuff -->
-            <!-- Loading the data just for you. -->
-          <!-- </div> -->
-
-
-          <a href="https://github.com/anasrashid-1" target="_blank">
-            <!-- 1 -->
-            <div class="github-card">
-              <img
-              width="100%"
-              src="https://streak-stats.demolab.com?user=anasrashid-1&theme=vue"
-              alt="" />
-            </div>
-           
-            
-            <!-- 2 -->
-            <div class="github-card">
-              <img
-              width="100%"
-              src="https://github-readme-stats.vercel.app/api?username=anasrashid-1&show_icons=true&count_private=true&theme=vue&hide_border=true" />
-            </div>
-           
-
-            <!-- 3 -->
-            <div class="github-card">
-              <img
-              width="100%"
-              src="https://github-readme-stats.vercel.app/api/top-langs?username=anasrashid-1&show_icons=true&locale=en&layout=compact&theme=vue&hide_border=true"
-              />
-            </div>
-
-            <!-- 4 -->
-            <div class="github-card">
-              <img
-              width="100%"
-              src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anasrashid-1&theme=vue&utcOffset=8"
-              />
-            </div>
-            
-          </a>
-   
-    </div
-
-    
-  </div>
 
   <!-- GitHub ends -->
+   <section id="contact">
 
-  <div id="contact">
-    <br>
-    <br>
-    <br><br>
-    <h2 class="heading">Contact
-      <span>Me</span>
-    </h2>
-    <div class="contact_me">
-      <p id="contact-phone">Contact Number:- +91 7006216311</p>
-      <p>
-        <p id="contact-email"> <a href="mailto:anasrashid700@gmail.com"></a>
-          Email Address:- anasrashid700@gmail.com
-        </p>
-      </p>
-      <p>Address:- Srinagar, Jammu and Kashmir - 190001</p>
+  
+  <div class="count-area" data-diff="100">
+    <div class="container">
+      <h2 class="heading" id="contacto">
+        Contáctame
+      </h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="count-area-content" data-aos="fade-in-left" data-aos-duration="1500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                  </svg>
+                    <div class="count-title"><b>UBICACIÓN</b></div>
+                    <div class="count-title">Santander, Colombia</div>
+                </div>
+            </div>
+      
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="count-area-content" data-aos="fade-in-right" data-aos-duration="1500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi-mortarboard-fill" viewBox="0 0 16 16">
+                    <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+                    <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+                  </svg>
+                    <div class="count-title"><b>EMAIL</b> </div>
+                    <div class="count-title" id="correo"><a href="mailto:silviaangarita@gmail.com">silviaangarita28@gmail.com</a> </div>
+                </div>
+            </div>
 
-      <div>
-        <a class="project-link linkdk" id="contact-linkedin" target="_blank"
-          href="https://www.linkedin.com/in/anasrashid1/"><i style="font-size: 40px" class='bx bxl-linkedin'
-            aria-hidden="true"></i></a>
-
-        <a class="project-link linkd" id="contact-github" target="_blank" href="https://github.com/silviaac28"><i
-            style="font-size: 40px" class='bx bxl-github' aria-hidden="true"></i></a>
-
-        <a class="project-link linkd" href="mailto: anasrashid700@gmail.com.com" target="_blank"><i
-            style="font-size: 40px" class='bx bx-envelope' aria-hidden="true"></i></a>
-      </div>
+      
+        </div>
     </div>
-  </div>
+</div>
+
+</section>
+
 
 
   <!--  Contacts Ends -->
@@ -575,10 +511,8 @@
 
 
   <footer class="footer">
-    <div class="footer-text">
 
-      <p> Copyright &copy; 2023 by Anas Rashid All right Reserved.</p>
-    </div>
+
     <div class="footer-iconTop">
       <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
     </div>

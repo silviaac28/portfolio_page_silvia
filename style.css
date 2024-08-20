@@ -179,6 +179,7 @@
     margin-left: 20%;
     margin-bottom: 15%;
     margin-top: 20%;
+    box-shadow: 0 0 2rem rgb(227, 163, 227);
     
     /* border: solid red; */
      
@@ -314,7 +315,6 @@
     
     
     .about-content h3 {
-      text-align: left;
       line-height: 2;
     }
     .about-content h3 {
@@ -375,7 +375,10 @@
       margin: 30px 0px;
     }
      
-    
+    .bi-mortarboard-fill{
+      color: var(--bg-carolina-blue);
+
+    }
     /*-----------------------------------*\
       #Projects
     \*-----------------------------------*/
@@ -470,11 +473,13 @@
       color: rgb(0, 0, 0);
     }
     .project-github-link {
-      font-size: 30px;
+      font-size: 50px;
+      color: white;
     }
     
     .project-deployed-link {
-      font-size: 30px;
+      font-size: 50px;
+      color: white;
     }
   
     .project-description{
@@ -550,85 +555,83 @@
     
   /*-----------------------------------Contact----------------------------------------*/
   
-  #contact {
-    height: 400px;
-    width: 100%;
-    /* color: var(--second-bg-color); */
-    background: var(--);
-    background: var(--bg-oxford-blue);
+  /* ------------------------------Contact-part---------------------------- */
+
+  #contacto{
+    color: white;
+  }
+
+.count-area {
+    position: relative;
+    background: #fbeaff00;
+    padding: 100px 0;
     text-align: center;
-  }
-  
-  #contact > div > p {
-    color: var(--secondary-color);
-  }
-  
-  .contact_me {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    margin-top: 50px;
-  }
-  
-  .contact_me > p > a > span {
-    text-decoration: underline;
-  }
-  
-  
-  
-  .contact_me > div {
-    margin-top: 20px;
-  }
-  
-  .contact_me > p {
-    margin-bottom: 20px;
-  }
-  
-  
-  
-  .project-link {
+    color: rgb(0, 0, 0);
+}
+
+.count-area-content {
+    margin-top: 30px;
+}
+
+.count-area i {
+    font-size: 48px;
+}
+
+
+
+.count-title {
+    font-size: 20px;
+}
+
+.stats-icon {
+    color: rgb(216, 203, 223);
+}
+
+.stats-icon:hover {
+    color: #c6b1c5;
+}
+
+
+.count-title {
+    color: rgb(202, 181, 213);
+    transition: ease 0.5s;
+}
+
+#correo{
+  color: white;
+}
+
+.count-title:hover {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
     text-align: center;
-    outline: 0;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .project-link i{
-    color: var(--bg-carolina-blue);
-  }
-  #p-links i{
-    font-size: 50px;
-    color: var(--bg-carolina-blue);
-  }
-  #p-links i:hover{
-    color: var(--bg-carolina-blue);
-    transition: color 0.3s ease-in, background-color 0.3s ease-in,
-      border-color 0.3s ease-in;
-    scale: 110%;
-    transform: translate3d(0px, -16px, 0px);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-  }
-  #contact-linkedin i {
-    margin-right: 40px;
-  }
-  
-  #contact-github i {
-    margin-right: 40px;
-  }
-  
-  .project-link:hover i {
-    color: var(--bg-carolina-blue);
-    transition: color 0.3s ease-in, background-color 0.3s ease-in,
-      border-color 0.3s ease-in;
-    scale: 110%;
-    transform: translate3d(0px, -16px, 0px);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-  }
-  .contact_me > div > a > i {
-    transform: translate3d(0px, -8px, -8px);
-  }
+    font-weight: bold;
+    color: rgb(197, 167, 205);
+    transform: scale(0.9);
+}
+
+form input, form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #303030;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form .btn2 {
+  padding: 14px 60x;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+
   
   /* github */
  
@@ -647,29 +650,26 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
-  }
+    background: var(--bg-oxford-blue-2);
+    flex-direction: row-reverse;
+}
   
-  .footer-text p {
-    font-size: 1.6rem;
-  
-  }
   .footer-iconTop a {
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     padding: .8rem;
     background: var(--bg-carolina-blue);
     border-radius: .8rem;
     transition: .5s ease;
   }
+
   .footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--second-bg-color);
   }
+
   .footer-iconTop a:hover {
     box-shadow: 0 0 1rem var(--bg-carolina-blue);
   }
@@ -720,6 +720,7 @@
         width: 55%;
         margin-left: 20%;
         margin-bottom: 70%;
+        
         /* border: solid red; */
          
       }  
